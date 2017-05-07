@@ -1,0 +1,10 @@
+_rad1 = ppEffectCreate ["colorCorrections", 1501];
+_rad1 ppEffectEnable true;
+_rad1 ppEffectAdjust [1, 1, 0, [0,0,0,0], [1.1,0.7,1.1,1.1], [1.0,0.7,1.0,1.1]]; 
+_rad1 ppEffectCommit 45;
+_rad2 = ppEffectCreate ["filmGrain", 2005];
+_rad2 ppEffectEnable true;
+_rad2 ppEffectAdjust [0, 0, 0, 0, 0, false];
+_rad2 ppEffectCommit 45;
+_rad3 = ppEffectCreate ["wetDistortion", 2006];
+_rad3 ppEffectEnable false;
