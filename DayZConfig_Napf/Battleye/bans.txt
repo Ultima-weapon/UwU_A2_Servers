@@ -1,0 +1,34 @@
+00acf5c137c3ad71cdb566c1be35b4e7 -1 Custom Ban Message!
+00acf5c137c3ad71cdb566c1be35b4e7 -1 Custom Ban Message!
+00acf5c137c3ad71cdb566c1be35b4e7 -1 Custom Ban Message!
+00acf5c137c3ad71cdb566c1be35b4e7 -1 Custom Ban Message!
+00acf5c137c3ad71cdb566c1be35b4e7 -1 Custom Ban Message!
+7b82ff5aeff2e2237f986a8e4d07a8d8 -1 Player Harrassment. Banned by Server Owner.
+0166ea10585e4e766afe4d58e6726b3d -1 Hacking. Causing Server to become unresponsive. Connected with 2
+e5563ea8f80701ab0add0548c63e47c8 -1 Hacking. Causing Server to become unresponsive. Connected with 2
+035e4267dd3f203f8022984bb2e0d51e -1 Hacking. Banned by Server Owner.
+4d53dac06a1e78087cd5ff5989bcbd38 -1 Hacking. Banned by Server Owner.
+05ef8043f925c859a278beea90cb1604 -1 Hacking. Banned by Server Owner.
+1e118593b62f4d728257f8c1a88481d7 -1 Hacking. Banned by Server Owner.
+04ee221420f0a4c6590bfafb54b265ec -1 Hacking. Banned by Server Owner.
+c3b8798e34c3be0df27cf5c1c457bed5 -1 Hacking. Banned by Server Owner.
+3c991b7aaf13759e86b7770b74dd06d8 -1 Hacking. Banned by Server Owner.
+3189c0f0b1aa9a5c14f563465f70b05e -1 Hacking. Banned by Server Owner.
+23eb0d876cd891e4ac5df7290cd45fca -1 Hacking. Banned by Server Owner.
+f8e36298d71bf36f1bf442c6ca91de8f -1 Hacking. Banned by Server Owner.
+72f011b85bacd721d64f15a1b934e1b1 -1 Admin Abuse, Hacking & VAC Ban. Banned by Server Owner.
+e79d93d2ccf3221b064e7e5650e68974 -1 Admin Abuse, Hacking & VAC Ban. Banned by Server Owner.
+8075877304581614ac60436d03f1e5fa -1 Admin Abuse. Banned by Server Owner.
+38cbd63424181bb112422cd185c27250 -1 Hacking. Banned by Server Owner.
+b51d71866be61d017b7d4fee277c97c9 -1 Hacking/Glitching. Banned by Server Owner.
+824d35fc6211a400221669182842cb00 -1 Server Bashing. The servers are coded fine, you are coded badly.
+c6f3117332edc73797e0dd82eb5336e4 -1 Breaking the following | General Rules 2,6,9 | Trader Rules 2,3,
+140321ec03d7beaee45a567ddbb8a8cc -1 Hacking. Banned by Server Owner.
+f8f5e767372613265a9c1cac83a70cc6 -1 Hacking. Banned by Server Owner.
+921820e5a30a83f2a11655fd1989fce9 2084222098 [Admin] Hacking is not tolerated.
+40cdf46b54d74b5daf4ab6d33374c3ee -1 Hacking. Banned by Server Owner.
+c8d4dcd790289e7ee6024ec0a802748a -1 Hacking. Banned by Server Owner.
+c0be3d804383bf1465eecc5482e5f498 1481577040 [Admin] 24 Hours: Don't use High Grade Military Weapons at Trade
+a4beef1800f67a35c9e778ae318e1c28 -1 Hacking. Banned by Server Owner.
+6af08246f0e1fc8044935cb664aa5d6f -1 [Admin] Hacking. Banned by server Owner.
+3511cd651c8f892ea43e21de06b986e5 -1 [Admin] Hacking. Banned by server Owner.
