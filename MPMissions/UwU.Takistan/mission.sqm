@@ -1,0 +1,622 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"takistan",
+		"aif_arma1buildings",
+		"CABuildings",
+		"CABuildings2",
+		"buildings3",
+		"CAMisc",
+		"CAMisc2",
+		"CAMisc3",
+		"CARocks2",
+		"CAStructures",
+		"CAWater2_LHD",
+		"cacharacters2",
+		"cacharacters_pmc",
+		"ca_modules_animals",
+		"ca_modules_functions",
+		"CAAir_E",
+		"CAAir",
+		"camisc_e",
+		"CAWheeled_E",
+		"arma2_ka52",
+		"CAAir3_Su34",
+		"ca_air2_su25",
+		"caair_e_mi8",
+		"CAAir2",
+		"CAAir_E_AH64D",
+		"mbg_killhouses",
+		"mbg_buildings_2",
+		"mbg_buildings_3",
+		"mbg_african_buildings",
+		"dayz_anim",
+		"dayz_code",
+		"dayz_communityassets",
+		"dayz_weapons",
+		"dayz_equip",
+		"dayz_epoch",
+		"dayz_vehicles",
+		"warfarebuildings",
+		"glt_m300t",
+		"pook_h13",
+		"csj_gyroac",
+		"map_eu",
+		"jetskiyanahuiaddon",
+		"ori_flying_fortress",
+		"ori_pragacopter",
+		"origins_pack_cars",
+		"ori_scraptank",
+		"ori_bigraft",
+		"ori_smallraft",
+		"ori_titanic",
+		"ori_scrapbuggy",
+		"ori_vil_pack",
+		"vil_ori_autogyro",
+		"ori_dc3",
+		"ori_submarine",
+		"ori_flying_fortress",
+		"base_buildings",
+		"gms_k98",
+		"RH_m14",
+		"FHQ_Remington",
+		"FHQ_Remington_ammo",
+		"FHQ_Remington_msr",
+		"FHQ_Remington_xm2010",
+		"FHQ_Remington_acr",
+		"FHQ_Remington_rsass",
+		"VILAS_WWP",
+		"VILAS_RW_Forces",
+		"VILAS_WWP_CO",
+		"VILAS_RW_Forces_CO",
+		"ddopp_taserpack",
+		"smk_anims_lite",
+		"MicroAirVehicles",
+		"oz_is_objects",
+		"sbh_paranoia",
+		"gsc_units_stalker_patch",
+		"nissan_350z",
+		"monaro",
+		"bb_mercenary",
+		"cybp_camels_config",
+		"american_law_enforcement",
+		"ussr_cheytac",
+		"warehouse",
+		"goosuksf",
+		"ussof_us_navy_seals",
+		"frb",
+		"nof_menfsk",
+		"arma1_sf_port_patch"
+	};
+	addOnsAuto[]=
+	{
+		"takistan",
+		"aif_arma1buildings",
+		"CABuildings",
+		"CABuildings2",
+		"buildings3",
+		"CAMisc",
+		"CAMisc2",
+		"CAMisc3",
+		"CARocks2",
+		"CAStructures",
+		"CAWater2_LHD",
+		"cacharacters2",
+		"cacharacters_pmc",
+		"ca_modules_animals",
+		"ca_modules_functions",
+		"CAAir_E",
+		"CAAir",
+		"camisc_e",
+		"CAWheeled_E",
+		"arma2_ka52",
+		"CAAir3_Su34",
+		"ca_air2_su25",
+		"caair_e_mi8",
+		"CAAir2",
+		"CAAir_E_AH64D",
+		"mbg_killhouses",
+		"mbg_buildings_2",
+		"mbg_buildings_3",
+		"mbg_african_buildings",
+		"dayz_anim",
+		"dayz_code",
+		"dayz_communityassets",
+		"dayz_weapons",
+		"dayz_equip",
+		"dayz_epoch",
+		"dayz_vehicles",
+		"warfarebuildings",
+		"glt_m300t",
+		"pook_h13",
+		"csj_gyroac",
+		"map_eu",
+		"jetskiyanahuiaddon",
+		"ori_flying_fortress",
+		"ori_pragacopter",
+		"origins_pack_cars",
+		"ori_scraptank",
+		"ori_bigraft",
+		"ori_smallraft",
+		"ori_titanic",
+		"ori_scrapbuggy",
+		"ori_vil_pack",
+		"vil_ori_autogyro",
+		"ori_dc3",
+		"ori_submarine",
+		"ori_flying_fortress",
+		"base_buildings",
+		"gms_k98",
+		"RH_m14",
+		"FHQ_Remington",
+		"FHQ_Remington_ammo",
+		"FHQ_Remington_msr",
+		"FHQ_Remington_xm2010",
+		"FHQ_Remington_acr",
+		"FHQ_Remington_rsass",
+		"VILAS_WWP",
+		"VILAS_RW_Forces",
+		"VILAS_WWP_CO",
+		"VILAS_RW_Forces_CO",
+		"ddopp_taserpack",
+		"smk_anims_lite",
+		"MicroAirVehicles",
+		"oz_is_objects",
+		"sbh_paranoia",
+		"gsc_units_stalker_patch",
+		"nissan_350z",
+		"monaro",
+		"bb_mercenary",
+		"cybp_camels_config",
+		"american_law_enforcement",
+		"ussr_cheytac",
+		"warehouse",
+		"goosuksf",
+		"ussof_us_navy_seals",
+		"frb",
+		"nof_menfsk",
+		"arma1_sf_port_patch"
+	};
+	randomSeed=11171215;
+	class Intel
+	{
+		briefingName="[UwU] Takistan | Militarized | 60+ Addons";
+		briefingDescription="Overpochins Takistan";
+		startWeather=0.067362607;
+		forecastWeather=0.52341133;
+		year=2015;
+		month=5;
+		day=24;
+		hour=13;
+	};
+	class Groups
+	{
+		items=2;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=100;
+				#define PLRDEF position[]={-18700,0,25800};azimut=0;side="WEST";vehicle="Survivor1_DZ";skill=0.6;init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';";player="PLAY CDG";
+				class Item0{id=0;PLRDEF};
+				class Item1{
+					position[]={-18700,0,25800};
+					azimut=0;
+					id=0;
+					side="WEST";
+					vehicle="Survivor1_DZ";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.6;
+					init="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';";				
+				};
+				class Item2{id=2;PLRDEF};
+				class Item3{id=3;PLRDEF};
+				class Item4{id=4;PLRDEF};
+				class Item5{id=5;PLRDEF};
+				class Item6{id=6;PLRDEF};
+				class Item7{id=7;PLRDEF};
+				class Item8{id=8;PLRDEF};
+				class Item9{id=9;PLRDEF};
+				class Item10{id=10;PLRDEF};
+				class Item11{id=11;PLRDEF};
+				class Item12{id=12;PLRDEF};
+				class Item13{id=13;PLRDEF};
+				class Item14{id=14;PLRDEF};
+				class Item15{id=15;PLRDEF};
+				class Item16{id=16;PLRDEF};
+				class Item17{id=17;PLRDEF};
+				class Item18{id=18;PLRDEF};
+				class Item19{id=19;PLRDEF};
+				class Item20{id=20;PLRDEF};
+				class Item21{id=21;PLRDEF};
+				class Item22{id=22;PLRDEF};
+				class Item23{id=23;PLRDEF};
+				class Item24{id=24;PLRDEF};
+				class Item25{id=25;PLRDEF};
+				class Item26{id=26;PLRDEF};
+				class Item27{id=27;PLRDEF};
+				class Item28{id=28;PLRDEF};
+				class Item29{id=29;PLRDEF};
+				class Item30{id=30;PLRDEF};
+				class Item31{id=31;PLRDEF};
+				class Item32{id=32;PLRDEF};
+				class Item33{id=33;PLRDEF};
+				class Item34{id=34;PLRDEF};
+				class Item35{id=35;PLRDEF};
+				class Item36{id=36;PLRDEF};
+				class Item37{id=37;PLRDEF};
+				class Item38{id=38;PLRDEF};
+				class Item39{id=39;PLRDEF};
+				class Item40{id=40;PLRDEF};
+				class Item41{id=41;PLRDEF};
+				class Item42{id=42;PLRDEF};
+				class Item43{id=43;PLRDEF};
+				class Item44{id=44;PLRDEF};
+				class Item45{id=45;PLRDEF};
+				class Item46{id=46;PLRDEF};
+				class Item47{id=47;PLRDEF};
+				class Item48{id=48;PLRDEF};
+				class Item49{id=49;PLRDEF};
+				class Item50{id=50;PLRDEF};
+				class Item51{id=51;PLRDEF};
+				class Item52{id=52;PLRDEF};
+				class Item53{id=53;PLRDEF};
+				class Item54{id=54;PLRDEF};
+				class Item55{id=55;PLRDEF};
+				class Item56{id=56;PLRDEF};
+				class Item57{id=57;PLRDEF};
+				class Item58{id=58;PLRDEF};
+				class Item59{id=59;PLRDEF};
+				class Item60{id=60;PLRDEF};
+				class Item61{id=61;PLRDEF};
+				class Item62{id=62;PLRDEF};
+				class Item63{id=63;PLRDEF};
+				class Item64{id=64;PLRDEF};
+				class Item65{id=65;PLRDEF};
+				class Item66{id=66;PLRDEF};
+				class Item67{id=67;PLRDEF};
+				class Item68{id=68;PLRDEF};
+				class Item69{id=69;PLRDEF};
+				class Item70{id=70;PLRDEF};
+				class Item71{id=71;PLRDEF};
+				class Item72{id=72;PLRDEF};
+				class Item73{id=73;PLRDEF};
+				class Item74{id=74;PLRDEF};
+				class Item75{id=75;PLRDEF};
+				class Item76{id=76;PLRDEF};
+				class Item77{id=77;PLRDEF};
+				class Item78{id=78;PLRDEF};
+				class Item79{id=79;PLRDEF};
+				class Item80{id=80;PLRDEF};
+				class Item81{id=81;PLRDEF};
+				class Item82{id=82;PLRDEF};
+				class Item83{id=83;PLRDEF};
+				class Item84{id=84;PLRDEF};
+				class Item85{id=85;PLRDEF};
+				class Item86{id=86;PLRDEF};
+				class Item87{id=87;PLRDEF};
+				class Item88{id=88;PLRDEF};
+				class Item89{id=89;PLRDEF};
+				class Item90{id=90;PLRDEF};
+				class Item91{id=91;PLRDEF};
+				class Item92{id=92;PLRDEF};
+				class Item93{id=93;PLRDEF};
+				class Item94{id=94;PLRDEF};
+				class Item95{id=95;PLRDEF};
+				class Item96{id=96;PLRDEF};
+				class Item97{id=97;PLRDEF};
+				class Item98{id=98;PLRDEF};
+				class Item99{id=99;PLRDEF};
+			};
+		};
+		class Item1
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-143.93861,0.52647489,2319.5012};
+					id=50;
+					side="LOGIC";
+					vehicle="FunctionsManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Markers
+	{
+		items=21;
+		class Item0
+		{
+			position[]={6622.5166,301.31479,6751.1309};
+			name="center";
+			type="Empty";
+		};
+		class Item1
+		{
+			position[]={6464.1104,414.77631,-1989.0348};
+			name="respawn_west";
+			type="Empty";
+		};
+		class Item2
+		{
+			position[]={8603.9141,292.76035,7735.3867};
+			name="spawn0";
+			type="Empty";
+		};
+		class Item3
+		{
+			position[]={3899.7437,372.565,7278.7085};
+			name="spawn1";
+			type="Empty";
+		};
+		class Item4
+		{
+			position[]={8615.4102,325.48184,5291.0664};
+			name="spawn2";
+			type="Empty";
+		};
+		class Item5
+		{
+			position[]={5649.7935,426.08795,4253.7886};
+			name="spawn3";
+			type="Empty";
+		};
+		class Item6
+		{
+			position[]={6211.9707,129.37137,8806.0615};
+			name="spawn4";
+			type="Empty";
+		};
+		class Item7
+		{
+			position[]={4486.1792,310.78815,4621.6045};
+			name="spawn5";
+			type="Empty";
+		};
+		class Item8
+		{
+			position[]={4802.3354,230.25961,8407.5059};
+			name="spawn6";
+			type="Empty";
+		};
+		class Item9
+		{
+			position[]={7621.5938,223.7644,8554.4775};
+			name="spawn7";
+			type="Empty";
+		};
+		class Item10
+		{
+			position[]={7423.8193,385.30939,4388.8999};
+			name="spawn8";
+			type="Empty";
+		};
+		class Item11
+		{
+			position[]={8740.1338,330.44122,6432.0054};
+			name="spawn9";
+			type="Empty";
+		};
+		class Item12
+		{
+			position[]={3730.855,229.78453,5860.3472};
+			name="spawn10";
+			type="Empty";
+		};
+		class Item13
+		{
+			position[]={431.62454,303.29282,5554.8208};
+			name="tradercitykush";
+			text="Trader City Khush";
+			type="mil_circle";
+			colorName="ColorOrange";
+			fillName="Border";
+			drawBorder=1;
+		};
+		class Item14
+		{
+			position[]={1958.948,51.60416,12555.685};
+			name="Trader_City_Nur";
+			text="Trader City Nur";
+			type="mil_circle";
+			colorName="ColorOrange";
+			fillName="Border";
+			drawBorder=1;
+		};
+		class Item15
+		{
+			position[]={10870.342,283.72119,6306.75};
+			name="Trader_City_Garm";
+			text="Trader City Garm";
+			type="mil_circle";
+			colorName="ColorOrange";
+			fillName="Border";
+			drawBorder=1;
+		};
+		class Item16
+		{
+			position[]={7416.8306,271.48111,155.77698};
+			name="Wholesaler";
+			text="Wholesaler";
+			type="mil_dot";
+			colorName="ColorOrange";
+			fillName="Border";
+			drawBorder=1;
+		};
+		class Item17
+		{
+			position[]={11270.841,115.92039,12660.39};
+			name="Wholesaler_1";
+			text="Wholesaler";
+			type="mil_dot";
+			colorName="ColorOrange";
+			fillName="Border";
+			drawBorder=1;
+		};
+		class Item18
+		{
+			position[]={5261.8662,83.96122,11163.853};
+			name="Airplane Dealer";
+			text="Airplane Dealer";
+			type="mil_dot";
+			colorName="ColorOrange";
+			fillName="Border";
+			drawBorder=1;
+		};
+		class Item19
+		{
+			position[]={751.90857,557.38123,10491.069};
+			name="BanditTrader";
+			text="Bandit Trader";
+			type="mil_dot";
+			colorName="ColorRed";
+			fillName="Border";
+			drawBorder=1;
+		};
+		class Item20
+		{
+			position[]={8039.3813,300.80963,2009.7328};
+			name="BlackMarketVendor";
+			text="Black Market Trader";
+			type="mil_dot";
+			colorName="ColorOrange";
+			fillName="Border";
+			drawBorder=1;
+		};
+	};
+	class Sensors
+	{
+		items=3;
+		class Item0
+		{
+			position[]={436.03763,303.48236,5550.8608};
+			a=100;
+			b=100;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="zone1";
+			expCond="(player distance zone1) < 100;";
+			expActiv="[""trader city Khush"",true,""enter""] spawn player_traderCity;";
+			expDesactiv="[""trader city Khush"",true,""leave""] spawn player_traderCity;";
+			class Effects
+			{
+				soundDet="arabian_market_1";
+			};
+		};
+		class Item1
+		{
+			position[]={1958.594,51.581875,12554.858};
+			a=100;
+			b=100;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="zone2";
+			expCond="(player distance zone2) < 100;";
+			expActiv="[""trader city Nur"",true,""enter""] spawn player_traderCity;";
+			expDesactiv="[""trader city Nur"",true,""leave""] spawn player_traderCity;";
+			class Effects
+			{
+				soundDet="arabian_market_1";
+			};
+		};
+		class Item2
+		{
+			position[]={10870.369,283.7251,6306.5469};
+			a=100;
+			b=100;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="zone3";
+			expCond="(player distance zone3) < 100;";
+			expActiv="[""trader city Garm"",true,""enter""] spawn player_traderCity;";
+			expDesactiv="[""trader city Garm"",true,""leave""] spawn player_traderCity;";
+			class Effects
+			{
+				soundDet="arabian_market_1";
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=6913869;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2015;
+		month=5;
+		day=24;
+		hour=13;
+		minute=0;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=4081731;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2015;
+		month=5;
+		day=24;
+		hour=13;
+		minute=0;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=4975929;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2015;
+		month=5;
+		day=24;
+		hour=13;
+		minute=0;
+	};
+};
